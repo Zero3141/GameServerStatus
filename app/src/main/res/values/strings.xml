@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Minecraft Server Status</string>
+    <string name="app_name">MC Status</string>
 
     <string name="list_offline">Offline</string>
     <string name="list_players">%d/%d</string>
