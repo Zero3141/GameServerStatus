@@ -2,4 +2,4 @@
 Get the status from minecraft servers.
 
 # Screenshots
-![Screenshots](https://i.imgur.com/xS898yr.png)
+![Screenshots](https://i.imgur.com/jPGa5GG.png)
