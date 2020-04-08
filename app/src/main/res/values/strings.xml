@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MC Status</string>
+    <string name="app_name">Game Server Status</string>
 
     <string name="list_offline">Offline</string>
     <string name="list_players">%d/%d</string>
@@ -22,9 +22,9 @@
 
     <string name="about_title">About</string>
     <string name="about_credits_title">Credits</string>
-    <string name="about_credits_text">Server ping data is provided by \"Minecraft Server Status - JSON API\" from https://api.mcsrvstat.us/.\n\nPlayer head image is provided by \"Minotar - An insanely fast and simple Minecraft avatar API\" from https://minotar.net/</string>
+    <string name="about_credits_text">Server ping data is provided by https://api.mcsrvstat.us/.\nPlayer head image is provided by https://minotar.net/\nIcon made by Pixel perfect from www.flaticon.com</string>
     <string name="about_info_title">Info</string>
-    <string name="about_info_text">The app source code is publicly available at\nhttps://github.com/Zero3141/MinecraftServerStatus</string>
+    <string name="about_info_text">The app source code is publicly available at\nhttps://github.com/Zero3141/GameServerStatus</string>
     <string name="about_author">Made with ♥ in Frankfurt, Germany\nCopyright © 2020 Heiko\nwww.heiko.host</string>
 
     <string name="data_db_name">database</string>

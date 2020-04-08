@@ -10,7 +10,15 @@
     <style name="AppTheme.NoActionBar.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="titleTextColor">@color/colorOnPrimaryTitle</item>
+        <item name="android:textColor">@color/colorOnPrimaryTitle</item>
         <item name="android:background">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorOnPrimaryTitle</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+    </style>
+
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/colorOnPrimaryTitle</item>
     </style>
 
 </resources>

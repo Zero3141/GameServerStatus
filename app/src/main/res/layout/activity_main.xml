@@ -10,7 +10,6 @@
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/AppTheme.NoActionBar.NoActionBar"
         app:layout_constraintEnd_toEndOf="parent"
