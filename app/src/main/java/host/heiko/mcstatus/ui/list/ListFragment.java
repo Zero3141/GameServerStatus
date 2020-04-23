@@ -23,6 +23,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Objects;
 
@@ -195,6 +196,12 @@ public class ListFragment extends Fragment {
 
         QueryLoader queryLoader = new QueryLoader();
         queryLoader.setListener(queryModels -> {
+
+            if(queryModels.size() == 0) {
+                Toast.makeText(getActivity().getApplicationContext(), R.string.add_cannot_offline, Toast.LENGTH_SHORT).show();
+                return;
+            }
+
             QueryModel queryModel = queryModels.get(0);
 
             // Check if server is offline
