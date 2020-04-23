@@ -11,4 +11,10 @@
         <item name="android:background">@color/colorSurface</item>
     </style>
 
+    <style name="DarkDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/colorOnPrimaryTitle</item>
+        <item name="android:textColorPrimary">@color/colorOnPrimaryTitle</item>
+        <item name="android:textColor">@color/colorOnPrimaryTitle</item>
+    </style>
+
 </resources>

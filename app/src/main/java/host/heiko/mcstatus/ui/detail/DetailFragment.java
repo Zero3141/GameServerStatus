@@ -129,7 +129,7 @@ public class DetailFragment extends Fragment {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         if (item.getItemId() == R.id.menu_delete) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(Objects.requireNonNull(getContext()));
+            AlertDialog.Builder builder = new AlertDialog.Builder(Objects.requireNonNull(getContext()), R.style.DarkDialog);
             builder.setMessage(String.format(getString(R.string.detail_alert_really), queryModel.getHostname()))
                     .setPositiveButton("Yes", (dialogInterface, i) -> removeServer(queryModel.getPosition()))
                     .setNegativeButton("No", (dialogInterface, i) -> { }).show();
