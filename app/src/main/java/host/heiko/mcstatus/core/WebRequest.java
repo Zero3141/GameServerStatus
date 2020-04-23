@@ -67,7 +67,7 @@ class WebRequest {
 
         try {
             return future.get();
-        } catch (ExecutionException | InterruptedException e) {
+        } catch (Exception e) {
             Log.e(TAG, e.getMessage(), e);
             return null;
         }
