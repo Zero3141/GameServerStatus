@@ -73,6 +73,7 @@ public class ListFragment extends Fragment {
 
         // Init add button
         FloatingActionButton floatingActionButton = root.findViewById(R.id.floatingActionButton);
+        floatingActionButton.bringToFront();
         floatingActionButton.setOnClickListener(view -> {
             Intent intent = new Intent(getContext(), AddActivity.class);
             startActivityForResult(intent, REQUEST_ADD_ACTIVITY);

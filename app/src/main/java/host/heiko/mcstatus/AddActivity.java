@@ -41,6 +41,7 @@ public class AddActivity extends AppCompatActivity {
 
         // Init floating action button
         FloatingActionButton addBtn = findViewById(R.id.addBtn);
+        addBtn.bringToFront();
         addBtn.setOnClickListener(view -> {
 
             // Hide keyboard
